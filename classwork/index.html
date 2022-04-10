@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <!--
 	Bonie Ferrer
 	April 3, 2022
-	Recent revision: (April 5,2022)
+	Recent revision: (April 10,2022)
 -->
-	<html>
+<html>
 		<head>
 			<title>BonieF's Porfolio</title>
-		<body>
-		 <h1>Portfolio for Bonie Ferrer</h1>
-<nav>
-    <hr> 
+            <link href="teststyles.css" rel="stylesheet" type="text/css">    
+        <style>
+            body{
+                background-color: lightblue;
+                }
+
+            header, footer{
+                background-color: darkgreen;
+                color: white;
+                }
+
+            #experience {
+                    border: thick dashed orange;
+                    }
+             .border {
+                 border: thick solid blue;
+                    }
+                                
+        </style>    
+    <body>
+        <header>
+		        <h1>Portfolio for Bonie Ferrer</h1>
+        </header>
+
+    <nav class="border">
+    <hr style="border:thin dotted red;"> 
         <p><a href="">Home</a></p>
 		<p><a href="projects.html">Projects</a></p>
 		<p><a href="contacts.html">contacts</a></p>
 		<p><a href="testimonials.html">testimonials</a></p>
-	<hr>
-</nav>
+	<hr style="width:50%;border:2px solid blueviolet">
+    </nav>
         
-	<article id="about-me">
+	<article class="border" id="about" >
 	
         <h2><em>About Me</em></h2> 
 		<img src="image/Bonie1.jpg" alt="Portrait of Bonie Ferrer"witdth = 300" height="350">
@@ -60,7 +80,7 @@
         </tr>
     </table>
 	
-</article>
+    </article>
         
 	<article id="Hobbies">
 	    <h2><em>Hobbies</em></h2> 
