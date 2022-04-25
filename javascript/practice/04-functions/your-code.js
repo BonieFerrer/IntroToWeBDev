@@ -7,8 +7,8 @@
 // Complete the following function. 
 // Write code to add firstNumber and secondNumber and then return the result.
 
-function addTwoNumbers(firstNumber, secondNumber) {
-    // your code goes here
+function addTwoNumbers(firstNumber,secondNumber) {
+ console.log(result;)
 }
 
 // Open index.html in your browser, open the JavaScript console, confirm the result.

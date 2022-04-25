@@ -1,0 +1,125 @@
+
+div {
+    margin-bottom: 10px;
+ }
+ 
+ label {
+    display: inline-table;
+    width: 150px;
+ }
+ 
+    :root {
+     --header-color: #0000ff;
+     --font-color: #0000ff;
+     --bg-color: #ffff00;
+  }
+  
+    body {
+       color: var(--font-color);
+       background-color: var(--bg-color);
+       font-family: comic sans ms;
+  }
+        
+  h1 {
+     color: var(--header-color);
+     font-size: 3rem;
+     font-style:bold;
+     font-variant: small-caps;
+     text-align: center;
+   }
+        
+  h2 {
+     color: var(--header-color);
+     font-size: 1rem;
+    }
+  
+  
+  
+  a:hover {
+     color: white; 
+  }  
+   
+  section {
+     margin-top: 50px;
+     margin-left: 20px;
+     
+  }
+             
+  .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+  }    
+    
+  hr {
+     border: 2px dashed #ff0000;
+  }
+  input[type=text] {
+    border: 2px solid hsl(0, 0%, 5%);
+    width: 25%;
+    padding: 8px 8px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    font-size: 1.1em;
+     
+}
+
+
+select{
+   border: 2px solid #0d1f2d;
+    width: 25%;
+    padding: 8px 8px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    font-size: 1.1em; 
+}
+
+input[type=submit] {
+    font-size: 1.2em;
+    background-color: #546a7b;
+    color: #fef9ff;
+    padding: 4px 8px;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #f2eded;
+    color: #546a7b;
+	}
+
+textarea {
+    width: 25%;
+    height:175px;
+    padding: 12px 20px;
+    margin:3px 152;
+    box-sizing: border-box;
+    border: 2px solid #0d1f2d;
+    border-radius: 3px;
+    background-color: #fff;
+    resize: none;
+    
+    }
+        footer{
+                background-color:hsl(0, 89%, 58%);
+                color:#fef9ff;
+                height: 100px;
+                text-align: center;
+                padding: 3px 10px 3px 10px;
+                }	
+
+        hr {
+            border: 2px dashed #ff0000;
+            }
+               
+        th,tr,td {
+            border: 3 px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color:#0000ff
+            
+             }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+             }
+ 
