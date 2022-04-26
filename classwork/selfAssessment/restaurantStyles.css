@@ -1,24 +1,24 @@
 
-div {
-    margin-bottom: 10px;
- }
- 
- label {
-    display: inline-table;
-    width: 150px;
+
+
+ label{
+    display:inline-table;
+    width:600px;
+    margin-top: 10px;
+    text-align: right;
  }
  
     :root {
-     --header-color: #0000ff;
-     --font-color: #0000ff;
-     --bg-color: #ffff00;
+     --header-color: black;
+     --font-color: black;
+     --bg-color: rgb(243, 189, 243);
   }
   
     body {
        color: var(--font-color);
        background-color: var(--bg-color);
        font-family: comic sans ms;
-  }
+     }
         
   h1 {
      color: var(--header-color);
@@ -26,6 +26,7 @@ div {
      font-style:bold;
      font-variant: small-caps;
      text-align: center;
+     
    }
         
   h2 {
@@ -36,12 +37,13 @@ div {
   
   
   a:hover {
-     color: white; 
+     color:rgb(127, 252, 102); 
   }  
    
   section {
      margin-top: 50px;
-     margin-left: 20px;
+     margin-left:20px;
+     
      
   }
              
@@ -50,76 +52,99 @@ div {
      margin-left: auto;
      margin-right: auto;
   }    
-    
-  hr {
-     border: 2px dashed #ff0000;
-  }
+  
   input[type=text] {
-    border: 2px solid hsl(0, 0%, 5%);
+    border: 3px ridge silver;
     width: 25%;
     padding: 8px 8px;
-    margin: 3px 0;
+    margin: 2px;
     box-sizing: border-box;
+    background-color: sandybrown;
     font-size: 1.1em;
      
 }
 
 
 select{
-   border: 2px solid #0d1f2d;
+   border: 3px ridge silver;
     width: 25%;
     padding: 8px 8px;
-    margin: 3px 0;
+    margin: 2px;
     box-sizing: border-box;
+    background-color: sandybrown;
     font-size: 1.1em; 
 }
 
 input[type=submit] {
     font-size: 1.2em;
-    background-color: #546a7b;
-    color: #fef9ff;
+    background-color: sandybrown;
+    color:silver;
     padding: 4px 8px;
     
 }
 
 input[type=submit]:hover {
-    background-color: #f2eded;
-    color: #546a7b;
+    background-color:sandybrown;
+    color:rgb(173, 255, 47);
 	}
+
 
 textarea {
     width: 25%;
     height:175px;
     padding: 12px 20px;
-    margin:3px 152;
+    margin:4px 606px;
     box-sizing: border-box;
-    border: 2px solid #0d1f2d;
+    border: 4px ridge silver;
     border-radius: 3px;
-    background-color: #fff;
+    background-color: sandybrown;
     resize: none;
+   }
     
-    }
         footer{
                 background-color:hsl(0, 89%, 58%);
-                color:#fef9ff;
-                height: 100px;
+                color:hsl(209, 84%, 71%);
+                height: 75px;
                 text-align: center;
-                padding: 3px 10px 3px 10px;
+                padding: 3px 10px 30px 3px;
+                border-style:ridge;
+                
                 }	
 
-        hr {
-            border: 2px dashed #ff0000;
-            }
-               
-        th,tr,td {
+
+        header{
+                background-color:sandybrown;
+                height: 30px;
+                text-align:justify;
+                padding: 3px 3px 20px 3px;
+                border-style:ridge;
+                color:snow;            
+                }        
+
+                     
+        th,tr, td {
             border: 3 px;
             border-radius: 10px;
-            border-style: solid;
-            border-color:#0000ff
-            
+            border-style: 2px ridge;
+            border-color:silver;
+
              }
         table{
             margin-left: auto;
             margin-right: auto;
-             }
- 
+            width: 30%;
+            }
+
+        
+        legend{
+            margin-right: 1050px;
+            text-align: right;
+            }
+
+      ul{
+         margin-top:0px;
+         list-style-type: none;
+         margin-left:600px;
+         margin-right:700x;
+         
+      }

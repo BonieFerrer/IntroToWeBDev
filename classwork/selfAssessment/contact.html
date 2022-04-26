@@ -1,133 +1,35 @@
-<style>
-    :root {
-     --header-color: #0000ff;
-     --font-color: #0000ff;
-     --bg-color: #ffff00;
-  }
-  
-    body {
-       color: var(--font-color);
-       background-color: var(--bg-color);
-       font-family: comic sans ms;
-  }
-        
-  h1 {
-     color: var(--header-color);
-     font-size: 3rem;
-     font-style:bold;
-     font-variant: small-caps;
-     text-align: center;
-   }
-        
-  h2 {
-     color: var(--header-color);
-     font-size: 1rem;
-    }
-  
-  
-  
-  a:hover {
-     color: white; 
-  }  
-   
-  section {
-     margin-top: 50px;
-     margin-left: 20px;
-     
-  }
-             
-  .center {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-  }    
-    
-  hr {
-     border: 2px dashed #ff0000;
-  }
-  input[type=text] {
-    border: 2px solid #0d1f2d;
-    width: 25%;
-    padding: 8px 8px;
-    margin: 3px 0;
-    box-sizing: border-box;
-    font-size: 1.1em;
-     
-}
-
-
-select{
-   border: 2px solid #0d1f2d;
-    width: 25%;
-    padding: 8px 8px;
-    margin: 3px 0;
-    box-sizing: border-box;
-    font-size: 1.1em; 
-}
-
-input[type=submit] {
-    font-size: 1.2em;
-    background-color: #546a7b;
-    color: #fef9ff;
-    padding: 4px 8px;
-    
-}
-
-input[type=submit]:hover {
-    background-color: #f2eded;
-    color: #546a7b;
-	}
-
-textarea {
-    width: 25%;
-    height:175px;
-    padding: 12px 20px;
-    margin:3px 152;
-    box-sizing: border-box;
-    border: 2px solid #0d1f2d;
-    border-radius: 3px;
-    background-color: #fff;
-    resize: none;
-    
-}
-footer{
-                background-color:#5b7d87;
-                color:#fef9ff;
-                height: 100px;
-                text-align: center;
-                padding: 3px 10px 3px 10px;
-                }	
-
-  </style>
- 
- 
- 
-      <!DOCTYPE html>
-      <html lang="en">
-      <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+      
       <title>Home Page</title>
       <link rel="stylesheet" href="restaurantStyles.css">
         
       
       <body>
        
-       
-            <h1>NicMeg Pilipino Restaurant</h1>
-             <hr>  
-            <p class="nav">
+           
+            
+           <header>
+            <p>
             <a href="homepage.html">Home</a> &nbsp;
             <a href="Menu.html">Menu</a> &nbsp;
             <a href="contact.html">Contact Us</a>
-            </p>
-            <hr>
+            </p></header><br>
+            <h1>Panganan Grill and Restaurant</h1>
+
             
             <form action="submit.html" method="POST">
-
-            <label for="name">Name:</label> 
+         <div class="label" >   
+            <label for="name">Name :</label> 
             <input type="text" id="name" name="name"> <br>
-            <label for="email">Email:</label>
+            <label for="email">Email :</label>
             <input type="text" id="email" name="email"> <br>
-            <label for="phone">Phone:</label>
+            <label for="phone">Phone :</label>
             <input type="text" id="phone" name="phone"> <br>
                         
             
@@ -135,65 +37,67 @@ footer{
             
 
 
-            <label for="contact">Reason for Inquiry:</label>
+            <label for="contact">Reason for Inquiry :</label>
             <select id="contact" name="contact">
             <option value="default" selected>Catering</option>
             <option value="Private Party">Private Party</option>
             <option value="Feedback">Feedback</option>
             <option value="Other">others</option>
-            </select>           
-              <br>
-            <label for="info">Additional Information:</label><br>
+            </select><br>        
+              
+            <label for="info">Additional Information :</label>
+            </div>
             <textarea id="info" name="info"></textarea>
+
+           
+          
+            
+              <legend>Have you been to the restaurants ?</legend>
+              <ul>
+              <input type="radio" id="choice1" name="questionnaire" value="yes">Yes
+              
+              <input type="radio" id="choice2" name="questionnaire" value="no">No
+              </ul>
+             
+              
+          
                
-            <legend>Have you been to the restaurants?</legend>
-            <input type="radio" id="choice1" name="questionnaire" value="yes">
-            <label for="choice1">Yes</label>
-            <input type="radio" id="choice2" name="questionnaire" value="no">
-            <label for="choice2">No</label><br>
-        
-         
-            
-      
-               <legend>Best days to contact you:</legend>
-            
-               <input type="checkbox" id="M" name="interest" value="M">
-               <label for="M">M</label>
+               <legend>Best days to contact you :</legend>
+              <ul>
+               <input type="checkbox" id="M" name="interest" value="M">M
+               
 
-               <input type="checkbox" id="T" name="interest" value="T">
-               <label for="T">T</label>
+               <input type="checkbox" id="T" name="interest" value="T">T
+               
 
-               <input type="checkbox" id="W" name="interest" value="W">
-               <label for="W">W</label>
+               <input type="checkbox" id="W" name="interest" value="W">W
+               
 
-                <input type="checkbox" id="Th" name="interest" value="Th">
-               <label for="Th">Th</label>
+                <input type="checkbox" id="Th" name="interest" value="Th">Th
+               
 
-               <input type="checkbox" id="F" name="interest" value="F" >
-               <label for="F">F</label><br><br>
+               <input type="checkbox" id="F" name="interest" value="F" >F
+               </ul><br>
             
           
-
-            
-               
-                   
+                  
                      
                 
-                <input type="Submit" name="Send Request" value="Send Request" class="center">
+                <input type="Submit" name="Send Request" value="Send Request" class="center"><br>
 
                
              
             
-            <footer>
+            
                <p style="text-align:center">5580 Sheppard Ave East, Scarborough, Ontario</P>
                <p style="text-align:center">416-900-7500</P>
-            </footer>         
+                    
  
             
- 
-         </form>
-
-         </body>
+            </form>
+         
+        </body>
+                
       </html>
     
  
