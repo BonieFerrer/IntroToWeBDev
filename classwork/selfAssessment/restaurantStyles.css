@@ -1,6 +1,19 @@
 
 
 
+.nav {
+   text-align: left;
+}
+
+.nav a {
+   text-decoration: none;
+   text-transform: lowercase;
+   font-weight: bold;
+   font-size: larger;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
  label{
     display:inline-table;
     width:600px;
