@@ -45,9 +45,11 @@
    
         footer{
 
-                margin-top: 200px;
-                margin-bottom:auto ;      
+                margin-top: auto;
+                margin-left: auto;  
+                margin-right: auto;    
                 font-family: 'Courier New', Courier, monospace;
+                font-size: 1em;
                 color:black;
                 text-align: center;
                 
@@ -70,7 +72,7 @@
           display:block;
           margin-left: auto;
           margin-right:auto;
-          padding:10px;
+          padding:3px;
           
        }
                
@@ -141,16 +143,21 @@
          
       }
       input[type=text], select{
+         margin:3px auto 0px auto;
+         
+         display:block ;
          width:300px;
-         padding: 10px;
-         margin: 3px 20px;
+         padding:10px;
          border: 1px solid #aaa;
          border-radius: 4px;
       }
       input[type=email] {
-         margin: 3px 20px;
+         
+         margin:3px auto 0px auto;
+         display:block;
+         
          width:300px;
-         padding: 10px;
+         padding:10px;
          border: 1px solid #aaa;
          border-radius: 4px;
       }
@@ -163,7 +170,8 @@
        
 
         textarea {
-         margin: 3px 20px;
+         margin:3px auto 3px auto;
+         display: block;  
          height:175px;
          padding:10px;
          width: 320px;
@@ -187,17 +195,13 @@
          }
          
          .center{
-            margin-left: 10%;
-            margin-right: 10%;
+            margin-left:auto;
+            margin-right: auto;
             position: relative;
+            display: block;
             
          }
          
+         
 
-         #myForm{
-            margin-left: 220px;
-            margin-right: auto;
-            display:inline-block;
-            grid-template-columns: auto;
-         }
          
