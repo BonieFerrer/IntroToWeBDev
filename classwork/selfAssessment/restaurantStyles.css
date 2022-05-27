@@ -4,16 +4,6 @@
 .nav {
    text-align: left;
 }
-
-
-
- label{
-    display:inline-table;
-    width:600px;
-    margin-top: 10px;
-    text-align: right;
- }
- 
     :root {
      --header-color: black;
      --font-color: black;
@@ -23,10 +13,11 @@
     body {
        color: var(--font-color);
        background-color: var(--bg-color);
-       font-family: comic sans ms;
-     }
+       font-family:'Courier New', Courier, monospace;
+    }
         
   h1 {
+     padding:2px;
      color: var(--header-color);
      font-size: 3rem;
      font-style:bold;
@@ -40,81 +31,28 @@
      font-size: 1rem;
     }
   
-  
-  
-  a:hover {
-     color:rgb(127, 252, 102); 
-  }  
    
-  section {
-     margin-top: 50px;
-     margin-left:20px;
+  a:hover {
+     color:#07d; 
+  }  
+       
      
-     
-  }
-             
-  .center {
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-  }    
-  
-  input[type=text] {
-    border: 3px ridge silver;
-    width: 25%;
-    padding: 8px 8px;
-    margin: 2px;
-    box-sizing: border-box;
-    background-color: sandybrown;
-    font-size: 1.1em;
-     
-}
-
-
-select{
-   border: 3px ridge silver;
-    width: 25%;
-    padding: 8px 8px;
-    margin: 2px;
-    box-sizing: border-box;
-    background-color: sandybrown;
-    font-size: 1.1em; 
-}
-
-input[type=submit] {
-    font-size: 1.2em;
-    background-color: sandybrown;
-    color:silver;
-    padding: 4px 8px;
-    
-}
-
-input[type=submit]:hover {
+  input[type=submit]:hover {
     background-color:sandybrown;
-    color:rgb(173, 255, 47);
+    color:#09f;
 	}
 
-
-textarea {
-    width: 25%;
-    height:175px;
-    padding: 12px 20px;
-    margin:4px 606px;
-    box-sizing: border-box;
-    border: 4px ridge silver;
-    border-radius: 3px;
-    background-color: sandybrown;
-    resize: none;
-   }
-    
+   
         footer{
-                background-color:hsl(0, 89%, 58%);
-                color:hsl(209, 84%, 71%);
-                height: 75px;
+
+                margin-top: 200px;
+                margin-bottom:auto ;      
+                font-family: 'Courier New', Courier, monospace;
+                color:black;
                 text-align: center;
-                padding: 3px 10px 30px 3px;
-                border-style:ridge;
                 
+            
+                              
                 }	
 
 
@@ -126,31 +64,140 @@ textarea {
                 border-style:ridge;
                 color:snow;            
                 }        
+       img{
+          height: 150px;
+          width: 400px;
+          display:block;
+          margin-left: auto;
+          margin-right:auto;
+          padding:10px;
+          
+       }
+               
+       .description{
+          padding:5px;
+          width: 500px;
+          margin-left:auto;
+          margin-right:auto;
+          display:block;
+          text-align: justify;
 
-                     
-        th,tr, td {
-            border: 3 px;
-            border-radius: 10px;
-            border-style: 2px ridge;
-            border-color:silver;
+       }
+      .review{
+         padding:5px;
+         margin-left: auto;
+         margin-right: auto;
+         display: block;
+         width: 510px;
+         text-align: left;
+      }
+       #gridMenu{
+          margin-left: 20%;
+          margin-right: 20%;
+          grid-gap: 5px 5px;
+          display:grid;
+          grid-template-columns: auto auto auto;
+          
+          
+       }
 
-             }
-        table{
-            margin-left: auto;
-            margin-right: auto;
-            width: 30%;
-            }
+       #gridMenu> div{
+          background-color: sandybrown;
+          text-align: center;
+          border: 3px ridge silver;
+          padding: 20px;
+       }
+       
 
-        
-        legend{
-            margin-right: 1050px;
-            text-align: right;
-            }
+       input[type=submit] {
+         width:125px;
+         background-color: #09f;
+         color: white;
+         padding: 15px;
+         margin-right: auto;
+         margin-left: auto;
+         display: block;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+     }
+     
+       input[type=submit]:hover {
+         background-color: #07d;
+         color: white;
+        }
 
-      ul{
-         margin-top:0px;
-         list-style-type: none;
-         margin-left:600px;
-         margin-right:700x;
+
+   
+      form {
+         font: 10pt Arial;
+         padding: 2px;
+      }
+      label {
+         width: 300px;
+         display: inline-block;
+         text-align:right;
+         margin:3px 0px;
          
       }
+      input[type=text], select{
+         width:300px;
+         padding: 10px;
+         margin: 3px 20px;
+         border: 1px solid #aaa;
+         border-radius: 4px;
+      }
+      input[type=email] {
+         margin: 3px 20px;
+         width:300px;
+         padding: 10px;
+         border: 1px solid #aaa;
+         border-radius: 4px;
+      }
+           
+      label[for=info]{
+         display:inline-block;
+         margin-top: 75px;
+      }
+      
+       
+
+        textarea {
+         margin: 3px 20px;
+         height:175px;
+         padding:10px;
+         width: 320px;
+         border-radius: 4px;
+         border: 1px solid #aaa;
+         box-sizing: border-box;
+         resize: none;
+         
+        }
+
+        
+        
+
+
+         input[type=radio]{
+            display:inline;
+            margin: 3px 20px;
+            display:inline-block;
+            padding:20px;
+
+         }
+         
+         .center{
+            margin-left: 10%;
+            margin-right: 10%;
+            position: relative;
+            
+         }
+         
+
+         #myForm{
+            margin-left: 220px;
+            margin-right: auto;
+            display:inline-block;
+            grid-template-columns: auto;
+         }
+         
