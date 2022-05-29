@@ -1,8 +1,19 @@
 /*updated may 27 2022*/
 
 
-.nav {
-   text-align: left;
+.naV {
+   margin-left: auto;
+   margin-right: auto;
+   text-align: right;
+   border-top: thin silver solid;
+   border-bottom: thin silver solid;
+   padding-top: 12px;
+   padding-bottom: 12px;
+   background-color: sandybrown;
+
+
+   
+
 }
 
 :root {
@@ -15,14 +26,14 @@ body {
    color: var(--font-color);
    background-color: var(--bg-color);
    font-family: 'Courier New', Courier, monospace;
+   
 }
 
-h1 {
+ h1 {
    padding: 2px;
-   color: var(--header-color);
+   color: black;
    font-size: 3rem;
-   font-style: bold;
-   font-variant: small-caps;
+   font-weight: bold;
    text-align: center;
 
 }
@@ -47,7 +58,7 @@ footer {
    margin-left: auto;
    margin-right: auto;
    font-family: 'Courier New', Courier, monospace;
-   font-size: 1em;
+   font-size: 1 em;
    color: black;
    text-align: center;
 }
@@ -168,19 +179,35 @@ textarea {
 }
 
 input[type=radio] {
-   margin: auto 10x;
+   margin: 5px 10x;
    display: inline-block;
 }
 
 
 input[type=checkbox] {
-   margin: auto 10x;
+   margin: 5px 10x;
    display: inline-block;
 }
 
 
-.center {
-   margin-left:29%;
+.cenTer {
+   margin-left:auto;
    margin-right:auto;
    display: block;
+   
+}
+
+ 
+.naV .btn {
+   background-color:#07d;
+   color: #fef9ff; 
+}  
+
+.naV .btn:hover 
+{
+    font-weight: bold;
+}
+.required:after{
+   content:"*";
+   color:red;
 }
