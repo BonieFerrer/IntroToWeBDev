@@ -4,13 +4,8 @@
 .naV {
    margin-left: auto;
    margin-right: auto;
-   text-align: right;
-   border-top: thin silver solid;
-   border-bottom: thin silver solid;
-   padding-top: 12px;
-   padding-bottom: 12px;
-   background-color: sandybrown;
-
+   text-align: left;
+   
 
    
 
@@ -42,6 +37,10 @@ h2 {
    color: var(--header-color);
    font-size: 1rem;
 }
+h3{
+   text-align:center;
+   font-size: small;
+}
 
 
 a:hover {
@@ -50,7 +49,14 @@ a:hover {
 
 input[type=submit]:hover {
    background-color: sandybrown;
-   color: #09f;
+      color: #09f;
+}
+button[type="submit"]:hover, button[type="reset"]:hover {
+   text-decoration: underline;
+} 
+button[type="submit"]:active, button[type="reset"]:active {
+   text-decoration: none;
+   font-weight: bold;
 }
 
 footer {
@@ -63,7 +69,7 @@ footer {
    text-align: center;
 }
 
-header {
+header{
    background-color: sandybrown;
    height: 30px;
    text-align: justify;
@@ -148,7 +154,8 @@ label {
 
 input[type=text],
 select {
-   margin: 3px auto 0px auto;
+   margin-right: auto;
+   margin-left:auto;
    display:block;
    width: 300px;
    padding: 10px;
@@ -157,7 +164,9 @@ select {
 }
 
 input[type=email] {
-   margin: 3px auto 0px auto;
+   margin-right: auto;
+   margin-left:auto;
+   display:block;
    display:block;
    width: 300px;
    padding: 10px;
@@ -167,7 +176,9 @@ input[type=email] {
 
 
 textarea {
-   margin: 3px auto 3px auto;
+   margin-right: auto;
+   margin-left:auto;
+   display:block;
    display: block;
    height: 100px;
    padding: 0px;
@@ -211,3 +222,95 @@ input[type=checkbox] {
    content:"*";
    color:red;
 }
+
+/* for mobile */
+@media only screen and (min-width:400px) {
+   .col-s-1 {width: 8.33%;}
+   .col-s-2 {width: 16.66%;}
+   .col-s-3 {width: 25%;}
+   .col-s-4 {width: 33.33%;}
+   .col-s-5 {width: 41.66%;}
+   .col-s-6 {width: 50%;}
+   .col-s-7 {width: 58.33%;}
+   .col-s-8 {width: 66.66%;}
+   .col-s-9 {width: 75%;}
+   .col-s-10 {width: 83.33%;}
+   .col-s-11 {width: 91.66%;}
+   .col-s-12 {width: 100%;}
+   
+ }
+
+ 
+/*for tablet */
+@media only screen and (min-width:600px) {
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+  
+}
+
+@media only screen and (min-width:700px){
+.col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+   
+/*desktop*/
+@media screen and (min-width: 900px) {
+   .col-s-1 {width: 8.33%;}
+   .col-s-2 {width: 16.66%;}
+   .col-s-3 {width: 25%;}
+   .col-s-4 {width: 33.33%;}
+   .col-s-5 {width: 41.66%;}
+   .col-s-6 {width: 50%;}
+   .col-s-7 {width: 58.33%;}
+   .col-s-8 {width: 66.66%;}
+   .col-s-9 {width: 75%;}
+   .col-s-10 {width: 83.33%;}
+   .col-s-11 {width: 91.66%;}
+   .col-s-12 {width: 100%;}
+ } 
+
+
+@media only screen and (min-width:1200px){
+   .col-1 {width: 8.33%;}
+   .col-2 {width: 16.66%;}
+   .col-3 {width: 25%;}
+   .col-4 {width: 33.33%;}
+   .col-5 {width: 41.66%;}
+   .col-6 {width: 50%;}
+   .col-7 {width: 58.33%;}
+   .col-8 {width: 66.66%;}
+   .col-9 {width: 75%;}
+   .col-10 {width: 83.33%;}
+   .col-11 {width: 91.66%;}
+   .col-12 {width: 100%;}
+ } 
+
+      
+   
+
+
+
+
+
+
+
