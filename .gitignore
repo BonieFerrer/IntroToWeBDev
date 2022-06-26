@@ -88,3 +88,4 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/classwork/myJavaBootCamp2.0/HelloWorld/target/
